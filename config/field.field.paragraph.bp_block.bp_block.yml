@@ -19,7 +19,5 @@ default_value: {  }
 default_value_callback: ''
 settings:
   handler: 'default:block'
-  handler_settings:
-    target_bundles: null
-    auto_create: true
+  handler_settings: {  }
 field_type: entity_reference

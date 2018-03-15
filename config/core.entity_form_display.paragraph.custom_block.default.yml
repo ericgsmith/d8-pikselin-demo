@@ -1,0 +1,32 @@
+uuid: 99ad77ca-1f99-4c9f-b8ce-6996988b646d
+langcode: en
+status: true
+dependencies:
+  config:
+    - entity_browser.browser.call_to_action_library
+    - field.field.paragraph.custom_block.field_custom_block
+    - paragraphs.paragraphs_type.custom_block
+  module:
+    - entity_browser
+id: paragraph.custom_block.default
+targetEntityType: paragraph
+bundle: custom_block
+mode: default
+content:
+  field_custom_block:
+    weight: 0
+    settings:
+      entity_browser: call_to_action_library
+      field_widget_display: label
+      field_widget_edit: true
+      field_widget_remove: true
+      selection_mode: selection_append
+      open: false
+      field_widget_display_settings: {  }
+    third_party_settings: {  }
+    type: entity_browser_entity_reference
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

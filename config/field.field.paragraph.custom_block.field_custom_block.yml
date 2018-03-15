@@ -1,0 +1,28 @@
+uuid: e4f3477e-2e00-451a-9089-2e1f4b1b0ef7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.call_to_action
+    - field.storage.paragraph.field_custom_block
+    - paragraphs.paragraphs_type.custom_block
+id: paragraph.custom_block.field_custom_block
+field_name: field_custom_block
+entity_type: paragraph
+bundle: custom_block
+label: 'Custom block'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:block_content'
+  handler_settings:
+    target_bundles:
+      call_to_action: call_to_action
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

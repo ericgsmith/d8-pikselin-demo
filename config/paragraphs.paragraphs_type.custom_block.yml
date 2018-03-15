@@ -1,0 +1,9 @@
+uuid: 44b39f5f-b3a6-475f-b3d7-caec2ec4906d
+langcode: en
+status: true
+dependencies: {  }
+id: custom_block
+label: 'Call to action'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }
