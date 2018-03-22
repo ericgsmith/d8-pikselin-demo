@@ -23,7 +23,7 @@ widgets:
     settings:
       view: entity_browser_call_to_actions
       view_display: entity_browser_1
-      submit_text: Library
+      submit_text: Submit
       auto_select: false
     uuid: 7577dbe0-3fe4-46c2-b786-ad46a249da60
     weight: 1
