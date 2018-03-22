@@ -5,6 +5,7 @@ dependencies:
   config:
     - views.view.entity_browser_call_to_actions
   module:
+    - entity_browser_entity_form
     - views
 name: call_to_action_library
 label: 'Call to action library'
@@ -29,3 +30,13 @@ widgets:
     weight: 1
     label: Library
     id: view
+  dd85024f-b0e1-4ba7-8085-aa5da7dcb40b:
+    settings:
+      entity_type: block_content
+      bundle: call_to_action
+      form_mode: default
+      submit_text: 'Save block'
+    uuid: dd85024f-b0e1-4ba7-8085-aa5da7dcb40b
+    weight: 2
+    label: 'Create new block'
+    id: entity_form
